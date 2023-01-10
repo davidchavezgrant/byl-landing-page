@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'aeonik';
+    src: url('Aeonik-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'aeonik-bold';
+    src: url('Aeonik-Bold.otf') format("opentype");
+}
+
+html, body {
+    font-family: 'aeonik';
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 23rem;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.button {
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    background: #FFFFFF;
+    font-family: 'aeonik-bold';
+    box-shadow: 0px 4px 10px rgba(123, 81, 133, 0.31);
+    width: fit-content;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.dark {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.try {
+    width: 100%;
+    text-align: end;
+    margin-top:-2rem;
+}
+
+.arrow {
+    width: 170px;
+}
+
+.logo {
+    width: 100%;
+    text-align: start;
+}
+
+.logo img {
+    width: 10rem;
+}
+
+.logo p {
+    font-family: 'aeonik-bold';
+    font-size: 5rem;
+    line-height: 5.5rem;
+}
+
+.red {
+    color: #EF777D;
+}

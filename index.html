@@ -4,23 +4,35 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no"/>
     <title>Lines | Web3 Messaging</title>
-    <link href="site.css" rel="stylesheet"/>
+    <link href="base.css" rel="stylesheet"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 </head>
 <body>
-
-<section>
-    <div class="logo">
-        <img class="Logo" src="title-logo.svg" alt="Logo_img">
+    <div class="container">
+        <div class="logo">
+            <img src="https://bylines-cdn.s3.amazonaws.com/graphics/registrarLogo.svg"/>
+            <p>Lines.</p>
+            <p class="red">IYKYK.</p>
+        </div>
+    
+        <div class="section">
+            <button data-tf-popup="BfqJglif" data-tf-size="100" class="button">Join waitlist</button>
+            <button id="redirect" class="button dark">Dev Portal</button>
+        </div>
+    
+        <div class="try">
+             <img class="arrow" src="arrow.svg">
+        </div>
+    
     </div>
-    <button data-tf-popup="BfqJglif" data-tf-size="100" class="landing-page">Join waitlist</button>
-    <button id="redirect" class="landing-page">Read The Docs</button>
     <script src="//embed.typeform.com/next/embed.js"></script>
-</section>
-<script type="text/javascript">
-    document.getElementById("redirect").onclick = function () {
-        location.href = "https://docs.lines.by/";
-    };
-</script>
+    <script type="text/javascript">
+        document.getElementById("redirect").onclick = function () {
+            location.href = "https://docs.lines.by/";
+        };
+    </script>
 </body>
 </html>
 
